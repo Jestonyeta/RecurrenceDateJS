@@ -26,3 +26,7 @@
   </body>
 </html>
 ```
+| Property  | Value |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
