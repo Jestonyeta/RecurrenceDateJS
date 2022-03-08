@@ -1,5 +1,5 @@
 ## Usage
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
