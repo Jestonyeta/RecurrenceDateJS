@@ -26,6 +26,7 @@
   </body>
 </html>
 ```
+## Properties & Values
 | Option   | Type | Value | Required |
 | ---      | ---       | --- | --- |
 | <code>weekdays</code> | Array    | ["su","mo","tu","we","th","fr","sa"] | true |  
