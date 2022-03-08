@@ -1,4 +1,6 @@
 # RecurrenceDateJS
+
+<script src="RD.js"></script>
 ```
 let rcd = new RCD({
    weekdays:['we'], // valid weekdays values ["su","mo","tu","we","th","fr","sa"]
