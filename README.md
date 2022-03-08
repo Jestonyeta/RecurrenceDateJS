@@ -3,7 +3,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>RecurrenceDateJS</title>
+    <title>RecurrenceDatesJS</title>
     <script src="RD.js"></script>
   </head>
   <body>
