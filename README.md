@@ -34,3 +34,6 @@
 | <code>interval</code> | Integer | 1, 2, 3, 4, 5 | true |
 |<code>start_date</code>|String|DD/MM/YY|true|
 |<code>end_date</code>|String|DD/MM/YY|true|
+## Response
+| error | String |
+| dates | Array |
