@@ -26,7 +26,7 @@
   </body>
 </html>
 ```
-| Property  | Value |
-| ---      | ---       |
-| Backtick | `         |
+| Option  | Type | Value | Required |
+| ---      | ---       | --- | --- |
+| weekdays | Array    | ["su","mo","tu","we","th","fr","sa"] | true | 
 | Pipe     | \|        |
