@@ -1,7 +1,5 @@
 ## Usage
-```html5
-<!DOCTYPE html>
-<html>
+```html
 <head>
 <title>RecurrenceDateJS</title>
 </head>
@@ -11,5 +9,4 @@
 <p>This is a paragraph.</p>
 
 </body>
-</html>
 ```
