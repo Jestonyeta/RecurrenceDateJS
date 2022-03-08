@@ -2,14 +2,27 @@
 ```html
 <!DOCTYPE HTML>
 <html>
-<head>
-<title>RecurrenceDateJS</title>
-</head>
-<body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
+  <head>
+    <title>RecurrenceDateJS</title>
+    <script src="RD.js"></script>
+  </head>
+  <body>
+    <script>
+    let rcd = new RCD({
+       weekdays:['mo','we','su'],
+       start_date:'16/01/2022',
+       end_date:'16/12/2024',
+       freq:'w',
+       interval:1
+    });
+    let res = rcd.results();
+    if(res.error){
+       console.log(res.error);
+    }else{
+       console.log(res);
+       // do something
+    }
+    </script>
+  </body>
 </html>
 ```
