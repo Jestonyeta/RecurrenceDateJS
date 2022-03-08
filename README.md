@@ -1,5 +1,5 @@
 ## Usage
-```html
+```html5
 <!DOCTYPE html>
 <html>
 <head>
