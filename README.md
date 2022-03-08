@@ -29,4 +29,5 @@
 | Option  | Type | Value | Required |
 | ---      | ---       | --- | --- |
 | weekdays | Array    | ["su","mo","tu","we","th","fr","sa"] | true |  
-| freq     | String       | w, m, y, 1wm, 2wm, 3wm, 4wm, jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec | true 
+| freq     | String       | w, m, y, 1wm, 2wm, 3wm, 4wm, jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec | true |
+| interval | Integer | 1, 2, 3, 4, 5 | true |
