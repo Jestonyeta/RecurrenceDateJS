@@ -35,6 +35,7 @@
 |<code>start_date</code>|String|DD/MM/YY|true|
 |<code>end_date</code>|String|DD/MM/YY|true|
 ## Response
-| error | String |
-| ---   | ---  |
+| Key | Type |
+| ---   | ---  | 
+| error | String | 
 | dates | Array |
