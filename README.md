@@ -19,7 +19,7 @@
     if(res.error){
        console.log(res.error);
     }else{
-       console.log(res);
+       console.log(res.dates);
        // do something
     }
     </script>
