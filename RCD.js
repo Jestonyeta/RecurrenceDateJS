@@ -373,6 +373,11 @@ class RCD {
          }
          return true;
       });
+      if(!needs.length){
+         for(let i in this.vp.weekdays){
+            needs.push(this.vp.weekdays[i]);
+         }
+      }
       return needs;
    }
    c_calc(pfreq){
