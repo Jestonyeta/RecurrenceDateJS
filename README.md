@@ -17,7 +17,7 @@
     });
     let res = rcd.results();
     if(res.error){
-       console.log(res.error);
+       alert(res.error);
     }else{
        console.log(res.dates);
        // do something
