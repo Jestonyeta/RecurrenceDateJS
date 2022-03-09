@@ -27,6 +27,9 @@ class RCD {
       if(!this.o.weekdays){
          this.o.weekdays = [];
       }
+      if(!this.o.freq){
+         this.o.freq = 'w';
+      }
       this.o.init_start = 0;
       this.o.init_start_cc = 0;
       this.o.readyState = false;
