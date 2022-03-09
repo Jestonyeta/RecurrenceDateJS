@@ -24,6 +24,9 @@ class RCD {
       this.datas = {};
       this.i = {};
       this.o = ops;
+      if(!this.o.weekdays){
+         this.o.weekdays = [];
+      }
       this.o.init_start = 0;
       this.o.init_start_cc = 0;
       this.o.readyState = false;
