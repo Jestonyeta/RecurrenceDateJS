@@ -1,1 +1,578 @@
-function a(){const a4=['all_weeks','toString','1358UXrmuI','indexOf','init_start_cc','init_add','3wm','getDate','Frequency\x20field\x20is\x20required','datas','nodeName','sep','days','init','getMonth','div','getElementById','dates','join','split','c_calc','9858GmxXqD','every','Invalid\x20frequency\x20dates','c_getDates','3894480jtDxIF','jan','Saturday','getFullYear','Invalid\x20frequency\x20\x22','1276riUYCk','addEventListener','_id','freq_dates','dec','push','parentNode','freq','isArray','8sFHQrB','Invalid\x20interval\x20option','nov','object','\x22,\x22','init_dp','DF\x20loaded','FORM','Thursday','c_params','2loyKWx','Missing\x20node\x20identifier','INPUT','feb','calc','may','datepicker','value','oblen','weekdays','Invalid\x20weekdays\x20option,\x20valid\x20[\x22','dateend\x20field\x20is\x20missing','13764lThuKf','interval','checked','init_end','apr','init_start','oct','c_alldays','\x22,\x20valid\x20[\x22','0\x20frequency\x20dates','setDate','datefrom\x20field\x20is\x20missing','removeChild','res_format','days_need','has_jquery','FromDate\x20Invalid','val_ops','start_date','forEach','weekdays\x20field\x20is\x20missing','Friday','submit','Interval\x20field\x20is\x20missing','out','24nwJkjx','recurring_from','_cre','form','72031pBPPYM','getDay','dd/mm/yy','626766ygyIHI','includes','validate','appendChild','1164573llLnWy','\x22\x20valid:\x20[\x22','def_submit','run_buff','week_days[]','error','recurring_to','jul','jun','freqs_m','Options\x20is\x20required','Sunday','wds','from','complete','1wm','freqs','val_els','defreq','function','all_dates','Invalid\x20Dates:\x20FromDate\x20>\x20EndDate','Invalid\x20end\x20date','debug','innerHTML','end','length','results','createElement','jqeury','valid_date','end_date','valid_year_range','readyState','keys','1355435RoTBOU','log','frequency','4wm','getTime','debug_df','Monday','tried\x20to\x20run\x20but\x20its\x20not\x20fully\x20loaded'];a=function(){return a4;};return a();}const w=b;(function(c,d){const v=b,e=c();while(!![]){try{const f=parseInt(v('0x7'))/0x1*(-parseInt(v('0x6a'))/0x2)+-parseInt(v('0xa'))/0x3+parseInt(v('0x60'))/0x4*(parseInt(v('0x31'))/0x5)+parseInt(v('0x4e'))/0x6*(parseInt(v('0x3b'))/0x7)+parseInt(v('0x3'))/0x8*(-parseInt(v('0xe'))/0x9)+parseInt(v('0x52'))/0xa+-parseInt(v('0x57'))/0xb*(parseInt(v('0x76'))/0xc);if(f===d)break;else e['push'](e['shift']());}catch(g){e['push'](e['shift']());}}}(a,0x6d6a8));function b(c,d){const e=a();return b=function(f,g){f=f-0x0;let h=e[f];return h;},b(c,d);}class RCD{['vp']={'freqs_m':[w('0x53'),w('0x6d'),'mar',w('0x7a'),w('0x6f'),w('0x16'),w('0x15'),'aug',w('0x44'),w('0x7c'),w('0x62'),w('0x5b')],'freqs':['w','m','y','1wm','2wm',w('0x3f'),w('0x34')],'weekdays':{'su':0x0,'mo':0x1,'tu':0x2,'we':0x3,'th':0x4,'fr':0x5,'sa':0x6},'dayname':[w('0x19'),w('0x37'),'Tuesday','Wednesday',w('0x68'),w('0x8b'),w('0x54')]};constructor(c=![]){const x=w;return(!c||typeof c!=x('0x63'))&&console[x('0x32')](x('0x18')),this['vp'][x('0x1e')]['push'](...this['vp']['freqs_m']),this[x('0x42')]={},this['i']={},this['o']=c,this['o'][x('0x7b')]=0x0,this['o'][x('0x3d')]=0x0,this['o'][x('0x2f')]=![],this['o'][x('0x79')]=0x1,this['o']['jqeury']&&(this['o'][x('0x79')]++,this['o'][x('0x85')]=!![]),!c['el']&&(this['o']['el']=![]),!this['o']['df']&&(this['o']['df']=x('0x9')),!this['o']['valid_year_range']&&(this['o'][x('0x2e')]=[0x79e,0x802]),this[x('0x11')]=setInterval(()=>this['init'](),0x1f4),this;}[w('0x87')](){const y=w;this['el']=document['querySelectorAll'](this['o']['el']);if(!this['el']['length'])return console[y('0x32')](y('0x6b')),![];this[y('0x6')]=this['el'][0x0];if(this['form'][y('0x43')]!==y('0x67'))return console[y('0x32')]('Node\x20expected\x20form\x20tag'),![];this[y('0x1f')]();}['val_els'](){const z=w;if(!this[z('0x6')]['interval'])return console[z('0x32')]('Interval\x20field\x20is\x20missing'),![];this['i']['interval']=this['form']['interval'];if(!this[z('0x6')][z('0x33')])return console['log'](z('0x1')),![];this['i'][z('0x5e')]=this[z('0x6')][z('0x33')],this['i'][z('0x1a')]={};let c=this[z('0x6')][z('0x12')];for(let d=0x0;d<c['length'];d++){this['i'][z('0x1a')][d]=c[d];}if(!c[z('0x28')])return console[z('0x32')](z('0x8a')),![];if(!this[z('0x6')][z('0x4')])return console[z('0x32')](z('0x81')),![];this['i'][z('0x1b')]=this[z('0x6')][z('0x4')];if(!this[z('0x6')]['recurring_to'])return console[z('0x32')](z('0x75')),![];this['i'][z('0x27')]=this[z('0x6')][z('0x14')],this['o'][z('0x85')]&&typeof $[z('0x70')]===z('0x63')&&(this['init_dp'](this['i'][z('0x1b')]),this[z('0x65')](this['i'][z('0x27')])),this[z('0x6')][z('0x58')](z('0x0'),f=>{return this['out'](),f['preventDefault'](),![];});}[w('0x2')](){const A=w;this[A('0x42')]={},this[A('0xc')](),this[A('0x6e')](),this['submit']&&typeof this[A('0x0')]===A('0x21')?this[A('0x0')](this[A('0x42')]):this['def_submit']();}['init_add'](){const B=w;this['o'][B('0x7b')]++;}[w('0x46')](){const C=w;if(!this['o']['el'])return clearInterval(this[C('0x11')]),this[C('0x32')](C('0x66')),!![];!this['o'][C('0x2f')]&&document['readyState']==C('0x1c')&&(this['o'][C('0x2f')]=!![],this['init_add']());this['o'][C('0x2b')]&&typeof $===C('0x21')&&(this[C('0x3e')](),this['o'][C('0x2b')]=![]);if(this['o'][C('0x7b')]>=this['o']['init_end'])return clearInterval(this[C('0x11')]),this['val_ops'](),this['log'](C('0x66')),!![];if(this['o'][C('0x3d')]>=0xa){clearInterval(this[C('0x11')]),this[C('0x32')](C('0x38'));;return![];}this['o'][C('0x3d')]++;}['init_dp'](c){$(c)['datepicker']({'dateFormat':this['o']['df']});}['vd'](c,e=![]){const D=w;if(this['o']['df']===D('0x9')){let f=c[D('0x4c')]('/');if(f['length']<0x3)return![];let g=new Date(f[0x2],parseInt(f[0x1])-0x1,f[0x0]);if(g[D('0x55')]()>this['o'][D('0x2e')][0x1]||g[D('0x55')]()<this['o']['valid_year_range'][0x0])return![];if(!g[D('0x35')]())return![];if(e)return g[D('0x35')]();return g;}return![];}[w('0xc')](){const E=w;if(!parseInt(this['i'][E('0x77')]['value']))return this[E('0x42')]['error']='Interval\x20field\x20is\x20required',![];if(!this['i'][E('0x5e')]['value'])return this[E('0x42')][E('0x13')]=E('0x41'),![];let c=[],d=this['i'][E('0x1a')];for(let g in d){typeof d[g]===E('0x63')&&d[g][E('0x43')]&&d[g][E('0x43')]===E('0x6c')&&(d[g][E('0x78')]&&c[E('0x5c')](parseInt(d[g][E('0x71')])));}if(!c[E('0x28')])return this[E('0x42')]['error']='No\x20dayas\x20selected',![];this['i']['ds']=c;let e=this['i'][E('0x1b')]['value'],f=this['i'][E('0x27')][E('0x71')];if(!this['vd'](e))return this[E('0x42')][E('0x13')]=E('0x86'),![];if(!this['vd'](f))return this[E('0x42')][E('0x13')]='EndDate\x20Invalid',![];if(this['vd'](f,!![])<this['vd'](e,!![]))return this[E('0x42')]['error']=E('0x23'),![];if(this['vd'](f,!![])===this['vd'](e,!![])){}}['calc'](){const F=w;if(this[F('0x42')][F('0x13')])return![];this[F('0x42')][F('0x22')]=[],this[F('0x42')]['all_weeks']={};let c=this['vd'](this['i']['from']['value']),e=this['vd'](this['i'][F('0x27')][F('0x71')]),f=0x0;while(c<=e){!this['datas']['all_weeks'][f]&&(this[F('0x42')]['all_weeks'][f]=[]);this[F('0x42')][F('0x39')][f][F('0x5c')](c),this[F('0x42')][F('0x22')][F('0x5c')](c),c=new Date(c);let h=c[F('0x8')]();!h&&f++,c[F('0x80')](c[F('0x40')]()+0x1);}let g=parseInt(this['i'][F('0x77')][F('0x71')]);this[F('0x42')]['days']=[],this[F('0x42')][F('0x29')]=[];for(let j=0x0;j<=f;j=j+g){if(typeof this['datas'][F('0x39')][j]===F('0x63'))for(let k in this['datas'][F('0x39')][j]){this[F('0x42')][F('0x45')][F('0x5c')](this['datas']['all_weeks'][j][k]);let l=new Date(this['datas'][F('0x39')][j][k]);if(this['i']['ds'][F('0xb')](l['getDay']())){let m=this['res_format'](l);this[F('0x42')][F('0x29')][F('0x5c')](m);}}}if(this['o'][F('0x25')]){this[F('0x59')]('debug_df')&&this[F('0x59')](F('0x36'))[F('0x5d')][F('0x82')](this[F('0x59')](F('0x36')));let n=this[F('0x5')](F('0x48'));n['id']=F('0x36');let o=this[F('0x42')][F('0x29')];for(let p in o){let q=this['_cre'](F('0x48'));q[F('0x26')]=o[p],n[F('0xd')](q);}this[F('0x6')][F('0xd')](n),console['log'](this[F('0x42')]);}}['_cre'](c){const G=w;return document[G('0x2a')](c);}['_id'](c){const H=w;return document[H('0x49')](c);}[w('0x83')](c){const I=w;if(this['o']['df']===I('0x9')){let e=c['getMonth']()+0x1;return(c[I('0x40')]()[I('0x3a')]()['length']<0x2?'0'+c[I('0x40')]():c[I('0x40')]())+'/'+(e[I('0x3a')]()['length']<0x2?'0'+e:e)+'/'+c['getFullYear']();}return c;}['log'](c){console['log'](c);}[w('0x13')](c){const J=w;return this[J('0x42')][J('0x13')]=c,this['o'][J('0x25')]&&this[J('0x32')](c),![];}[w('0x10')](){const K=w;console[K('0x32')](this[K('0x42')]);}[w('0x69')](){const L=w;if(this['datas']['error'])return![];if(!this['o'][L('0x77')]||isNaN(this['o'][L('0x77')]))return this[L('0x13')](L('0x61'));if(!this['o'][L('0x88')]||!this['vd'](this['o'][L('0x88')]))return this['error']('Invalid\x20start\x20date');if(!this['o'][L('0x2d')]||!this['vd'](this['o'][L('0x2d')]))return this[L('0x13')](L('0x24'));if(!this['o'][L('0x5e')]||!this['vp'][L('0x1e')][L('0xb')](this['o'][L('0x5e')]))return this[L('0x13')](L('0x56')+this['o'][L('0x5e')]+'\x22,\x20valid:\x20'+this['vp']['freqs'][L('0x4b')](',\x20'));if(!this['o']['weekdays']||!Array[L('0x5f')](this['o'][L('0x73')]))return this[L('0x13')](L('0x74')+Object[L('0x30')](this['vp'][L('0x73')])['toString']()[L('0x4c')](',')['join'](L('0x64'))+'\x22]');this['o'][L('0x73')][L('0x4f')](c=>{const M=L;if(this['vp']['weekdays'][c]===undefined)return this[M('0x13')]('Invalid\x20weekdays\x20option\x20\x22'+c+M('0x7e')+Object['keys'](this['vp']['weekdays'])[M('0x3a')]()[M('0x4c')](',')[M('0x4b')](M('0x64'))+'\x22]');return!![];});}[w('0x2c')](c){const N=w;if(c instanceof Date){if(c[N('0x55')]()>this['o'][N('0x2e')][0x0]&&c[N('0x55')]()<this['o']['valid_year_range'][0x1]&&c[N('0x35')]())return c;}return![];}[w('0x20')](c){const O=w;if(c instanceof Date){if(c[O('0x35')]())return c[O('0x55')]()+','+c[O('0x47')]()+','+c[O('0x40')]();}else{if(typeof c==='string'&&c[O('0x3c')](',')>-0x1){let e=c['split'](','),f=new Date(e[0x0],e[0x1],e[0x2]);return this[O('0x2c')](f);}}return![];}[w('0x7d')](){const P=w;if(this[P('0x42')][P('0x13')])return![];this['datas']['all_dates']=[];let c=this['vd'](this['o'][P('0x88')]),d=this['vd'](this['o'][P('0x2d')]);while(c<=d){c[P('0x35')]()&&this[P('0x20')](c)&&this[P('0x42')][P('0x22')][P('0x5c')](this[P('0x20')](c)),c=new Date(c),c[P('0x80')](c[P('0x40')]()+0x1);}}[w('0x72')](c){const Q=w;if(typeof c!=Q('0x63'))return 0x0;return Object[Q('0x30')](c)['length'];}['days_need'](){const R=w;let c=[];return this['o'][R('0x73')]['every'](d=>{const S=R;return this['vp'][S('0x73')][d]!=undefined&&c[S('0x5c')](this['vp'][S('0x73')][d]),!![];}),c;}[w('0x4d')](c){const T=w;if(this[T('0x42')][T('0x13')])return![];this[T('0x42')][T('0x5a')]={};switch(c){case'w':let d={},e=0x0;this[T('0x42')][T('0x22')][T('0x89')](r=>{const U=T;if(this[U('0x20')](r)){let s=this[U('0x20')](r);!d[e]&&(d[e]=[]),d[e][U('0x5c')](s),!s[U('0x8')]()&&e++;}}),this['datas'][T('0x5a')]=d;break;case'm':let f={},g=0x0;this['datas'][T('0x22')][T('0x89')](r=>{const V=T;if(this[V('0x20')](r)){let s=this[V('0x20')](r);!f[g]&&(f[g]=[]);f[g][V('0x5c')](s);let t=new Date(s[V('0x55')](),s['getMonth']()+0x1,0x0);t[V('0x40')]()===s[V('0x40')]()&&g++;}}),this['datas'][T('0x5a')]=f;break;case'y':let h={},i=0x0;this[T('0x42')]['all_dates'][T('0x89')](r=>{const W=T;if(this[W('0x20')](r)){let s=this[W('0x20')](r);!h[i]&&(h[i]=[]);h[i][W('0x5c')](s);let t=new Date(s[W('0x55')](),s[W('0x47')]()+0x1,0x0);t[W('0x40')]()===s[W('0x40')]()&&t[W('0x47')]()===0xb&&i++;}}),this[T('0x42')]['freq_dates']=h;break;case T('0x1d'):let j={},k=0x0;this['datas'][T('0x22')][T('0x89')](r=>{const X=T;if(this[X('0x20')](r)){let s=this['defreq'](r);!j[k]&&(j[k]=[]);let t=new Date(s['getFullYear'](),s[X('0x47')]()+0x1,0x0);if(s[X('0x40')]()<=0x7)j[k]['push'](s);else t[X('0x40')]()===s[X('0x40')]()&&k++;}}),this['datas'][T('0x5a')]=j;break;case'2wm':let l={},m=0x0;this[T('0x42')][T('0x22')][T('0x89')](r=>{const Y=T;if(this[Y('0x20')](r)){let s=this[Y('0x20')](r);!l[m]&&(l[m]=[]);let t=new Date(s['getFullYear'](),s[Y('0x47')]()+0x1,0x0);if(s[Y('0x40')]()>0x7&&s['getDate']()<=0xe)l[m][Y('0x5c')](s);else t[Y('0x40')]()===s[Y('0x40')]()&&m++;}}),this[T('0x42')]['freq_dates']=l;break;case T('0x3f'):let n={},o=0x0;this[T('0x42')]['all_dates'][T('0x89')](r=>{const Z=T;if(this[Z('0x20')](r)){let s=this[Z('0x20')](r);!n[o]&&(n[o]=[]);let t=new Date(s[Z('0x55')](),s[Z('0x47')]()+0x1,0x0);if(s[Z('0x40')]()>0xe&&s[Z('0x40')]()<=0x15)n[o][Z('0x5c')](s);else t[Z('0x40')]()===s[Z('0x40')]()&&o++;}}),this[T('0x42')][T('0x5a')]=n;break;case T('0x34'):let p={},q=0x0;this['datas'][T('0x22')]['forEach'](r=>{const a0=T;if(this[a0('0x20')](r)){let s=this[a0('0x20')](r);!p[q]&&(p[q]=[]);let t=new Date(s[a0('0x55')](),s[a0('0x47')]()+0x1,0x0);if(s['getDate']()>0x15&&s[a0('0x40')]()<=t[a0('0x40')]()-0x1)p[q][a0('0x5c')](s);else t['getDate']()===s[a0('0x40')]()&&(p[q][a0('0x5c')](s),q++);}}),this[T('0x42')][T('0x5a')]=p;break;default:if(this['vp'][T('0x17')]['includes'](c)){let r={},s=0x0;this[T('0x42')][T('0x22')][T('0x89')](t=>{const a1=T;if(this[a1('0x20')](t)){let u=this[a1('0x20')](t);!r[s]&&(r[s]=[]),u['getMonth']()===this['vp'][a1('0x17')][a1('0x3c')](c)&&r[s][a1('0x5c')](u),u[a1('0x47')]()===0xb&&u['getDate']()===0x1f&&s++;}}),this['datas'][T('0x5a')]=r;}else return this[T('0x13')](T('0x56')+c+T('0xf')+this['vp']['freqs']['join'](T('0x64'))+'\x22]');break;}return this['datas'];}[w('0x51')](){const a2=w;if(this['datas'][a2('0x13')])return![];if(!this[a2('0x42')][a2('0x5a')])return this['error'](a2('0x50')),![];if(!this[a2('0x72')](this['datas'][a2('0x5a')]))return this['error'](a2('0x7f')),![];!Array[a2('0x5f')](this['datas'][a2('0x4a')])&&(this[a2('0x42')][a2('0x4a')]=[]);let c=this[a2('0x42')][a2('0x5a')];for(let e=0x0;e<=this[a2('0x72')](c);e=e+this['o'][a2('0x77')]){for(let f in c[e]){let g=c[e][f];this[a2('0x84')]()[a2('0xb')](g['getDay']())&&this[a2('0x42')][a2('0x4a')][a2('0x5c')](this[a2('0x83')](g));}}!this['o']['debug']&&(delete this[a2('0x42')][a2('0x5a')],delete this[a2('0x42')][a2('0x22')]);}['results'](){const a3=w;return this[a3('0x69')](),this[a3('0x7d')](),this[a3('0x4d')](this['o'][a3('0x5e')]),this['c_getDates'](),this[a3('0x42')];}}
+class RCD {
+   vp = {
+      freqs_m:['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'],
+      freqs:['w','m','y','1wm','2wm','3wm','4wm'],
+      weekdays:{
+         su:0,
+         mo:1,
+         tu:2,
+         we:3,
+         th:4,
+         fr:5,
+         sa:6
+      },
+      dayname:['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+   };
+   constructor(ops = false) {
+      if(ops === 'getops'){
+         return this;
+      }
+      if(!ops || typeof ops != 'object') {
+         console.log('Options is required');
+      }
+      this.vp.freqs.push(...this.vp.freqs_m);
+      this.datas = {};
+      this.i = {};
+      this.o = ops;
+      this.o.init_start = 0;
+      this.o.init_start_cc = 0;
+      this.o.readyState = false;
+      this.o.init_end = 1;
+      if(this.o.jqeury){
+         this.o.init_end++;
+         this.o.has_jquery = true;
+      }
+      if(!ops.el) {
+         this.o.el = false;
+      }
+      if(!this.o.df) {
+         this.o.df = 'dd/mm/yy';
+      }
+      if(!this.o.valid_year_range){
+         this.o.valid_year_range = [1950,2050];
+      }
+      this.run_buff = setInterval(() => this.init(), 500);
+      return this;
+   }
+   print_debug(e,a){
+      if(this._id('debug_df')) {
+         this._id('debug_df').parentNode.removeChild(this._id('debug_df'));
+      }
+      let debug_box = this._cre('div');
+      debug_box.id = 'debug_df';
+      let res = a;
+      for(let i in res) {
+         let nn = this._cre('div');
+         nn.innerHTML = res[i];
+         debug_box.appendChild(nn);
+      }
+      e.appendChild(debug_box);
+   }
+   val_ops() {
+      this.el = document.querySelectorAll(this.o.el);
+      if(!this.el.length) {
+         console.log('Missing node identifier');
+         return false;
+      }
+      this.form = this.el[0];
+      if(this.form.nodeName !== 'FORM') {
+         console.log('Node expected form tag');
+         return false;
+      }
+      this.val_els();
+   }
+   val_els() {
+      if(!this.form.interval) {
+         console.log('Interval field is missing');
+         return false;
+      }
+      this.i.interval = this.form.interval;
+      if(!this.form.frequency) {
+         console.log('Interval field is missing');
+         return false;
+      }
+      this.i.freq = this.form.frequency;
+      this.i.wds = {};
+      let wds = this.form['week_days[]'];
+      for(let i = 0; i < wds.length; i++) {
+         this.i.wds[i] = wds[i];
+      }
+      if(!wds.length) {
+         console.log('weekdays field is missing');
+         return false;
+      }
+      if(!this.form.recurring_from) {
+         console.log('datefrom field is missing');
+         return false;
+      }
+      this.i.from = this.form.recurring_from;
+      if(!this.form.recurring_to) {
+         console.log('dateend field is missing');
+         return false;
+      }
+      this.i.end = this.form.recurring_to;
+      if(this.o.has_jquery && typeof $.datepicker === 'object') {
+         this.init_dp(this.i.from);
+         this.init_dp(this.i.end);
+      }
+      this.form.addEventListener('submit', (e) => {
+         this.out();
+         e.preventDefault();
+         return false;
+      });
+   }
+   out() {
+      this.datas = {};
+      this.validate();
+      this.calc();
+      (this.submit && typeof this.submit === 'function' ? this.submit(this.datas) : this.def_submit());
+   }
+   init_add() {
+      this.o.init_start++;
+   }
+   init() {
+      if(!this.o.el){
+         clearInterval(this.run_buff);
+         //this.log('DF loaded');
+         return true;
+      }
+      if(!this.o.readyState && document.readyState == 'complete') {
+         this.o.readyState = true;
+         this.init_add();
+      }
+      if(this.o.jqeury && typeof $ === 'function') {
+         this.init_add();
+         this.o.jqeury = false;
+      }
+      if(this.o.init_start >= this.o.init_end) {
+         clearInterval(this.run_buff);
+         this.val_ops();
+         //this.log('DF loaded');
+         return true;
+      }
+      if(this.o.init_start_cc >= 10) {
+         clearInterval(this.run_buff);
+         this.log('tried to run but its not fully loaded');;
+         return false;
+      }
+      this.o.init_start_cc++;
+   }
+   init_dp(a) {
+      $(a).datepicker({
+         dateFormat: this.o.df
+      });
+   }
+   vd(d, tt = false) {
+      if(this.o.df === 'dd/mm/yy') {
+         let pd = d.split('/');
+         if(pd.length < 3) {
+            return false;
+         }
+         let ed = new Date(pd[2], parseInt(pd[1]) - 1, pd[0]);
+         if(ed.getFullYear() > this.o.valid_year_range[1] || ed.getFullYear() < this.o.valid_year_range[0]) {
+            return false;
+         }
+         if(!ed.getTime()){
+            return false;
+         }
+         if(tt) {
+            return ed.getTime();
+         }
+         return ed;
+      }
+      return false;
+   }
+   validate() {
+      if(!parseInt(this.i.interval.value)) {
+         this.datas.error = 'Interval field is required';
+         return false;
+      }
+      if(!this.i.freq.value) {
+         this.datas.error = 'Frequency field is required';
+         return false;
+      }
+
+      let ds = [];
+      let wds = this.i.wds;
+      for(let i in wds) {
+         if(typeof wds[i] === 'object' && wds[i].nodeName && wds[i].nodeName === 'INPUT') {
+            if(wds[i].checked) {
+               ds.push(parseInt(wds[i].value));
+            }
+         }
+      }
+      if(!ds.length) {
+         this.datas.error = "No dayas selected";
+         return false;
+      }
+      this.i.ds = ds;
+
+      let from = this.i.from.value;
+      let end = this.i.end.value;
+      if(!this.vd(from)) {
+         this.datas.error = 'FromDate Invalid';
+         return false;
+      }
+      if(!this.vd(end)) {
+         this.datas.error = 'EndDate Invalid';
+         return false;
+      }
+      if(this.vd(end, true) < this.vd(from, true)) {
+         this.datas.error = 'Invalid Dates: FromDate > EndDate';
+         return false;
+      }
+      if(this.vd(end, true) === this.vd(from, true)) {
+         //this.datas.error = 'Please select diffrent date atleast 1 day interval';
+         //return false;
+      }
+   }
+   calc() {
+      if(this.datas.error) {
+         return false;
+      }
+      this.datas.all_dates = [];
+      this.datas.all_weeks = {};
+      let from = this.vd(this.i.from.value);
+      let end = this.vd(this.i.end.value);
+      let cw = 0;
+      while(from <= end) {
+         if(!this.datas.all_weeks[cw]) {
+            this.datas.all_weeks[cw] = [];
+         }
+         this.datas.all_weeks[cw].push(from);
+         this.datas.all_dates.push(from);
+         from = new Date(from);
+         let cd = from.getDay();
+         if(!cd) {
+            cw++;
+         }
+         from.setDate(from.getDate() + 1);
+      }
+      let interval = parseInt(this.i.interval.value);
+      this.datas.days = [];
+      this.datas.results = [];
+      for(let i = 0; i <= cw; i = i + interval) {
+         if(typeof this.datas.all_weeks[i] === 'object') {
+            for(let d in this.datas.all_weeks[i]) {
+               this.datas.days.push(this.datas.all_weeks[i][d]);
+               let ndd = new Date(this.datas.all_weeks[i][d]);
+               if(this.i.ds.includes(ndd.getDay())) {
+                  let formatted = this.res_format(ndd);
+                  this.datas.results.push(formatted);
+               }
+            }
+         }
+      }
+      if(this.o.debug) {
+         if(this._id('debug_df')) {
+            this._id('debug_df').parentNode.removeChild(this._id('debug_df'));
+         }
+         let debug_box = this._cre('div');
+         debug_box.id = 'debug_df';
+         let res = this.datas.results;
+         for(let i in res) {
+            let nn = this._cre('div');
+            nn.innerHTML = res[i];
+            debug_box.appendChild(nn);
+         }
+         this.form.appendChild(debug_box);
+         //console.clear();
+         console.log(this.datas);
+      }
+   }
+   _cre(e) {
+      return document.createElement(e);
+   }
+   _id(e) {
+      return document.getElementById(e);
+   }
+   res_format(d) {
+      if(this.o.df === 'dd/mm/yy') {
+         let m = (d.getMonth() + 1);
+
+         return (d.getDate().toString().length < 2 ? '0' + d.getDate() : d.getDate()) + '/' +
+            (m.toString().length < 2 ? '0' + m : m) + '/' + d.getFullYear();
+      }
+      return d;
+   }
+   log(a){
+      console.log(a);
+   }
+   error(a){
+      this.datas.error = a;
+      if(this.o.debug){
+         this.log(a);
+      }
+      return false;
+   }
+   def_submit() {
+      console.log(this.datas);
+   }
+   c_params(){
+      if(this.datas.error){
+         return false;
+      }
+      if(!this.o.interval||isNaN(this.o.interval)){
+         return this.error('Invalid interval option');
+      }
+      if(!this.o.start_date||!this.vd(this.o.start_date)){
+         return this.error('Invalid start date');
+      }
+      if(!this.o.end_date||!this.vd(this.o.end_date)){
+         return this.error('Invalid end date');
+      }
+      if(!this.o.freq||!this.vp.freqs.includes(this.o.freq)){
+         return this.error('Invalid frequency "'+this.o.freq+'", valid: '+this.vp.freqs.join(', '));
+      }
+      if(!this.o.weekdays||!Array.isArray(this.o.weekdays)){
+         return this.error('Invalid weekdays option, valid ["'+Object.keys(this.vp.weekdays).toString().split(',').join('","')+'"]');
+      }
+      this.o.weekdays.every(a=>{
+         if(this.vp.weekdays[a]===undefined){
+            return this.error('Invalid weekdays option "'+a+'", valid ["'+Object.keys(this.vp.weekdays).toString().split(',').join('","')+'"]');
+         }
+         return true;
+      });
+   }
+   valid_date(d){
+      if(d instanceof Date){
+         if(d.getFullYear() > this.o.valid_year_range[0] && d.getFullYear() < this.o.valid_year_range[1] && d.getTime()){
+            return d;
+         }
+      }
+      return false;
+   }
+   defreq(d){
+      if(d instanceof Date){
+         if(d.getTime()){
+            return d.getFullYear()+','+d.getMonth()+','+d.getDate();
+         }
+      }else if(typeof d === 'string'&&d.indexOf(',') > -1){
+         let dd = d.split(',');
+         let cd = new Date(dd[0],dd[1],dd[2]);
+         return this.valid_date(cd);
+      }
+      return false;
+   }
+   c_alldays(){
+      if(this.datas.error){
+         return false;
+      }
+      this.datas.all_dates = [];
+      let from = this.vd(this.o.start_date);
+      let end = this.vd(this.o.end_date);
+      while(from <= end) {
+         if(from.getTime()&&this.defreq(from)){
+            this.datas.all_dates.push(this.defreq(from));
+         }
+         from = new Date(from);
+         from.setDate(from.getDate() + 1);
+      }
+   }
+   oblen(o){
+      if(typeof o != 'object'){
+         return 0;
+      }
+      return Object.keys(o).length;
+   }
+   days_need(){
+      let needs = [];
+      this.o.weekdays.every(a=>{
+         if(this.vp.weekdays[a]!=undefined){
+            needs.push(this.vp.weekdays[a]);
+         }
+         return true;
+      });
+      return needs;
+   }
+   c_calc(pfreq){
+      if(this.datas.error){
+         return false;
+      }
+      this.datas.freq_dates = {};
+      switch(pfreq){
+         case 'w':
+            let weeks = {};
+            let cw = 0;
+            this.datas.all_dates.forEach(dd=>{
+               if(this.defreq(dd)){
+                  let d = this.defreq(dd);
+                  if(!weeks[cw]){
+                     weeks[cw] = [];
+                  }
+                  weeks[cw].push(d);
+                  if(!d.getDay()){
+                     cw++;
+                  }
+               }
+            });
+            this.datas.freq_dates = weeks;
+         break;
+         case 'm':
+            let months = {};
+            let cm = 0;
+            this.datas.all_dates.forEach(dd=>{
+               if(this.defreq(dd)){
+                  let d = this.defreq(dd);
+                  if(!months[cm]){
+                     months[cm] = [];
+                  }
+                  months[cm].push(d);
+                  let gld = new Date(d.getFullYear(),(d.getMonth()+1),0);
+                  if(gld.getDate()===d.getDate()){
+                     cm++;
+                  }
+               }
+            });
+            this.datas.freq_dates = months;
+         break;
+         case 'y':
+            let years = {};
+            let cy = 0;
+            this.datas.all_dates.forEach(dd=>{
+               if(this.defreq(dd)){
+                  let d = this.defreq(dd);
+                  if(!years[cy]){
+                     years[cy] = [];
+                  }
+                  years[cy].push(d);
+                  let gld = new Date(d.getFullYear(),(d.getMonth()+1),0);
+                  if(gld.getDate()===d.getDate()&&gld.getMonth()===11){
+                     cy++;
+                  }
+               }
+            });
+            this.datas.freq_dates = years;
+         break;
+         case '1wm':
+            let fwm = {};
+            let cc = 0;
+            this.datas.all_dates.forEach(dd=>{
+               if(this.defreq(dd)){
+                  let d = this.defreq(dd);
+                  if(!fwm[cc]){
+                     fwm[cc] = [];
+                  }
+                  let gld = new Date(d.getFullYear(),(d.getMonth()+1),0);
+                  if(d.getDate()<=7){
+                     fwm[cc].push(d);
+                  }else if(gld.getDate()===d.getDate()){
+                     cc++;
+                  }
+               }
+            });
+            this.datas.freq_dates = fwm;
+         break;
+         case '2wm':
+            let wm_2 = {};
+            let cc_wm_2 = 0;
+            this.datas.all_dates.forEach(dd=>{
+               if(this.defreq(dd)){
+                  let d = this.defreq(dd);
+                  if(!wm_2[cc_wm_2]){
+                     wm_2[cc_wm_2] = [];
+                  }
+                  let gld = new Date(d.getFullYear(),(d.getMonth()+1),0);
+                  if(d.getDate()>7&&d.getDate()<=14){
+                     wm_2[cc_wm_2].push(d);
+                  }else if(gld.getDate()===d.getDate()){
+                     cc_wm_2++;
+                  }
+               }
+            });
+            this.datas.freq_dates = wm_2;
+         break;
+         case '3wm':
+            let wm_3 = {};
+            let cc_wm_3 = 0;
+            this.datas.all_dates.forEach(dd=>{
+               if(this.defreq(dd)){
+                  let d = this.defreq(dd);
+                  if(!wm_3[cc_wm_3]){
+                     wm_3[cc_wm_3] = [];
+                  }
+                  let gld = new Date(d.getFullYear(),(d.getMonth()+1),0);
+                  if(d.getDate()>14&&d.getDate()<=21){
+                     wm_3[cc_wm_3].push(d);
+                  }else if(gld.getDate()===d.getDate()){
+                     cc_wm_3++;
+                  }
+               }
+            });
+            this.datas.freq_dates = wm_3;
+         break;
+         case '4wm':
+            let wm_4 = {};
+            let cc_wm_4 = 0;
+            this.datas.all_dates.forEach(dd=>{
+               if(this.defreq(dd)){
+                  let d = this.defreq(dd);
+                  if(!wm_4[cc_wm_4]){
+                     wm_4[cc_wm_4] = [];
+                  }
+                  let gld = new Date(d.getFullYear(),(d.getMonth()+1),0);
+                  if(d.getDate()>21&&d.getDate()<=(gld.getDate()-1)){
+                     wm_4[cc_wm_4].push(d);
+                  }else if(gld.getDate()===d.getDate()){
+                     wm_4[cc_wm_4].push(d);
+                     cc_wm_4++;
+                  }
+               }
+            });
+            this.datas.freq_dates = wm_4;
+         break;
+         default:
+            if(this.vp.freqs_m.includes(pfreq)){
+               let ymm = {};
+               let ymm_cc = 0;
+               this.datas.all_dates.forEach(dd=>{
+                  if(this.defreq(dd)){
+                     let d = this.defreq(dd);
+                     if(!ymm[ymm_cc]){
+                        ymm[ymm_cc] = [];
+                     }
+                     if(d.getMonth()===this.vp.freqs_m.indexOf(pfreq)){
+                        ymm[ymm_cc].push(d);
+                     }
+                     if(d.getMonth()===11&&d.getDate()===31){
+                        ymm_cc++;
+                     }
+                  }
+               });
+               this.datas.freq_dates = ymm;
+            }else{
+               return this.error('Invalid frequency "'+pfreq+'" valid: ["'+this.vp.freqs.join('","')+'"]');
+            }
+         break;
+      }
+      return this.datas;
+   }
+   c_getDates(){
+      if(this.datas.error){
+         return false;
+      }
+      if(!this.datas.freq_dates){
+         this.error('Invalid frequency dates');
+         return false;
+      }
+      if(!this.oblen(this.datas.freq_dates)){
+         this.error('0 frequency dates');
+         return false;
+      }
+      if(!Array.isArray(this.datas.dates)){
+         this.datas.dates = [];
+      }
+      let fd = this.datas.freq_dates;
+      for(let i = 0; i <= this.oblen(fd); i = i + parseInt(this.o.interval)) {
+         for(let d in fd[i]) {
+            let cd = fd[i][d];
+            if(this.days_need().includes(cd.getDay())){
+               this.datas.dates.push(this.res_format(cd));
+            }
+         }
+      }
+      this.datas.options = this.o;
+      if(!this.o.debug){
+         delete this.datas.options;
+         delete this.datas.freq_dates;
+         delete this.datas.all_dates;
+      }
+   }
+   results(){
+      this.c_params();
+      this.c_alldays();
+      this.c_calc(this.o.freq);
+      this.c_getDates();
+      return this.datas;
+   }
+}
