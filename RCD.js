@@ -18,7 +18,7 @@ class RCD {
          return this;
       }
       if(!ops || typeof ops != 'object') {
-         console.log('Options is required');
+         return this.error('Options is required');
       }
       this.vp.freqs.push(...this.vp.freqs_m);
       this.datas = {};
