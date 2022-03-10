@@ -308,7 +308,7 @@ class RCD {
       if(this.datas.error){
          return false;
       }
-      if(!this.o.interval||isNaN(this.o.interval)){
+      if(!this.o.interval||isNaN(this.o.interval)||!parseInt(this.o.interval)){
          return this.error('Invalid interval option');
       }
       if(!this.o.start_date||!this.vd(this.o.start_date)){
@@ -418,7 +418,9 @@ class RCD {
                   if(!months[cm]){
                      months[cm] = [];
                   }
-                  months[cm].push(d);
+                  if(d.getDate()<8){
+                     months[cm].push(d);
+                  }
                   let gld = new Date(d.getFullYear(),(d.getMonth()+1),0);
                   if(gld.getDate()===d.getDate()){
                      cm++;
@@ -564,11 +566,22 @@ class RCD {
          this.datas.dates = [];
       }
       let fd = this.datas.freq_dates;
-      for(let i = 0; i <= this.oblen(fd); i = i + parseInt(this.o.interval)) {
-         for(let d in fd[i]) {
-            let cd = fd[i][d];
-            if(this.days_need().includes(cd.getDay())){
-               this.datas.dates.push(this.res_format(cd));
+      if(this.vp.freqs_m.includes(this.o.freq)){
+         for(let i = 0; i <= this.oblen(fd);i++) {
+            for(let d in fd[i]) {
+               let cd = fd[i][d];
+               if(parseInt(this.o.interval)===cd.getDate()){
+                  this.datas.dates.push(this.res_format(cd));
+               }
+            }
+         }
+      }else{
+         for(let i = 0; i <= this.oblen(fd); i = i + parseInt(this.o.interval)) {
+            for(let d in fd[i]) {
+               let cd = fd[i][d];
+               if(this.days_need().includes(cd.getDay())){
+                  this.datas.dates.push(this.res_format(cd));
+               }
             }
          }
       }
