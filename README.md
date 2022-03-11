@@ -4,7 +4,7 @@
 <html>
   <head>
     <title>RecurrenceDatesJS</title>
-    <script src="RD.js"></script>
+    <script src="RCD.js"></script>
   </head>
   <body>
     <script>
